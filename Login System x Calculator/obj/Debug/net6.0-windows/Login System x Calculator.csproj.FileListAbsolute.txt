@@ -1,0 +1,18 @@
+D:\WinForm & WPF\Login System x Calculator\Login System x Calculator\bin\Debug\net6.0-windows\Login System x Calculator.exe
+D:\WinForm & WPF\Login System x Calculator\Login System x Calculator\bin\Debug\net6.0-windows\Login System x Calculator.deps.json
+D:\WinForm & WPF\Login System x Calculator\Login System x Calculator\bin\Debug\net6.0-windows\Login System x Calculator.runtimeconfig.json
+D:\WinForm & WPF\Login System x Calculator\Login System x Calculator\bin\Debug\net6.0-windows\Login System x Calculator.dll
+D:\WinForm & WPF\Login System x Calculator\Login System x Calculator\bin\Debug\net6.0-windows\Login System x Calculator.pdb
+D:\WinForm & WPF\Login System x Calculator\Login System x Calculator\obj\Debug\net6.0-windows\Login System x Calculator.csproj.AssemblyReference.cache
+D:\WinForm & WPF\Login System x Calculator\Login System x Calculator\obj\Debug\net6.0-windows\Login_System_x_Calculator.Form1.resources
+D:\WinForm & WPF\Login System x Calculator\Login System x Calculator\obj\Debug\net6.0-windows\Login_System_x_Calculator.Properties.Resources.resources
+D:\WinForm & WPF\Login System x Calculator\Login System x Calculator\obj\Debug\net6.0-windows\Login System x Calculator.csproj.GenerateResource.cache
+D:\WinForm & WPF\Login System x Calculator\Login System x Calculator\obj\Debug\net6.0-windows\Login System x Calculator.GeneratedMSBuildEditorConfig.editorconfig
+D:\WinForm & WPF\Login System x Calculator\Login System x Calculator\obj\Debug\net6.0-windows\Login System x Calculator.AssemblyInfoInputs.cache
+D:\WinForm & WPF\Login System x Calculator\Login System x Calculator\obj\Debug\net6.0-windows\Login System x Calculator.AssemblyInfo.cs
+D:\WinForm & WPF\Login System x Calculator\Login System x Calculator\obj\Debug\net6.0-windows\Login System x Calculator.csproj.CoreCompileInputs.cache
+D:\WinForm & WPF\Login System x Calculator\Login System x Calculator\obj\Debug\net6.0-windows\Login System x Calculator.dll
+D:\WinForm & WPF\Login System x Calculator\Login System x Calculator\obj\Debug\net6.0-windows\refint\Login System x Calculator.dll
+D:\WinForm & WPF\Login System x Calculator\Login System x Calculator\obj\Debug\net6.0-windows\Login System x Calculator.pdb
+D:\WinForm & WPF\Login System x Calculator\Login System x Calculator\obj\Debug\net6.0-windows\Login System x Calculator.genruntimeconfig.cache
+D:\WinForm & WPF\Login System x Calculator\Login System x Calculator\obj\Debug\net6.0-windows\ref\Login System x Calculator.dll

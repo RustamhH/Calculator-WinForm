@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Login System x Calculator/1.0.0": {
+        "runtime": {
+          "Login System x Calculator.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Login System x Calculator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

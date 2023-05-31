@@ -39,30 +39,36 @@ namespace Login_System_x_Calculator
             {
                 firstNumber = currentNumber.Substring(0, currentNumber.IndexOf(operation));
                 secondNumber = currentNumber.Substring(currentNumber.IndexOf(operation) + 1);
+                if(firstNumber!="" && secondNumber!="")
+                {
+                    switch (operation)
+                    {
+                        case "+":
+                            result = Convert.ToDouble(firstNumber) + Convert.ToDouble(secondNumber);
+                            break;
+                        case "-":
+                            result = Convert.ToDouble(firstNumber) - Convert.ToDouble(secondNumber);
+                            break;
+                        case "*":
+                            result = Convert.ToDouble(firstNumber) * Convert.ToDouble(secondNumber);
+                            break;
+                        case "/":
+                            if (secondNumber == "0") MessageBox.Show("No Zero Division");
+                            else result = Convert.ToDouble(firstNumber) / Convert.ToDouble(secondNumber);
+                            break;
+                        default:
+                            break;
+                    }
+                    currentNumber = result.ToString();
+                    ResultMenu.Text = currentNumber;
+                    firstNumber = "";
+                    secondNumber = "";
+                    operation = "";
+                }
+                
             }
-            switch (operation)
-            {
-                case "+":
-                    result = Convert.ToDouble(firstNumber) + Convert.ToDouble(secondNumber);
-                    break;
-                case "-":
-                    result = Convert.ToDouble(firstNumber) - Convert.ToDouble(secondNumber);
-                    break;
-                case "*":
-                    result = Convert.ToDouble(firstNumber) * Convert.ToDouble(secondNumber);
-                    break ;
-                case "/":
-                    if (secondNumber == "0") MessageBox.Show("No Zero Division");
-                    else result = Convert.ToDouble(firstNumber) / Convert.ToDouble(secondNumber);
-                    break;
-                default:
-                    break;
-            }
-            currentNumber = result.ToString();
-            ResultMenu.Text = currentNumber;
-            firstNumber = "";
-            secondNumber = "";
-            operation = "";
+
+            
             
 
         }
@@ -159,7 +165,7 @@ namespace Login_System_x_Calculator
 
         private void subtract_Click(object sender, EventArgs e)
         {
-           // if (currentNumber.Contains('+') || currentNumber.Contains('-') || currentNumber.Contains('*') || currentNumber.Contains('/')) return;
+            if (currentNumber.Contains('+') || currentNumber.Contains('-') || currentNumber.Contains('*') || currentNumber.Contains('/')) return;
             if (operation != "")
             {
                 equals_Click(sender, e);
@@ -175,7 +181,8 @@ namespace Login_System_x_Calculator
 
         private void multiply_Click(object sender, EventArgs e)
         {
-           // if (currentNumber.Contains('+') || currentNumber.Contains('-') || currentNumber.Contains('*') || currentNumber.Contains('/')) return;
+            
+            if (currentNumber.Contains('+') || currentNumber.Contains('-') || currentNumber.Contains('*') || currentNumber.Contains('/')) return;
             if (operation != "")
             {
                 equals_Click(sender, e);
@@ -192,7 +199,7 @@ namespace Login_System_x_Calculator
 
         private void divide_Click(object sender, EventArgs e)
         {
-            // if (currentNumber.Contains('+') || currentNumber.Contains('-') || currentNumber.Contains('*') || currentNumber.Contains('/')) return;
+            if (currentNumber.Contains('+') || currentNumber.Contains('-') || currentNumber.Contains('*') || currentNumber.Contains('/')) return;
             if (operation != "")
             {
                 equals_Click(sender, e);

@@ -34,3 +34,21 @@ C:\Users\Hesen_zc39\Source\Repos\Calculator-WinForm\Login System x Calculator\ob
 C:\Users\Hesen_zc39\Source\Repos\Calculator-WinForm\Login System x Calculator\obj\Debug\net6.0-windows\Login System x Calculator.csproj.CoreCompileInputs.cache
 C:\Users\Hesen_zc39\Source\Repos\Calculator-WinForm\Login System x Calculator\obj\Debug\net6.0-windows\Login System x Calculator.genruntimeconfig.cache
 C:\Users\Hesen_zc39\Source\Repos\Calculator-WinForm\Login System x Calculator\obj\Debug\net6.0-windows\ref\Login System x Calculator.dll
+C:\Users\Hesen_zc39\Desktop\Calculator-WinForm\Login System x Calculator\bin\Debug\net6.0-windows\Login System x Calculator.exe
+C:\Users\Hesen_zc39\Desktop\Calculator-WinForm\Login System x Calculator\bin\Debug\net6.0-windows\Login System x Calculator.deps.json
+C:\Users\Hesen_zc39\Desktop\Calculator-WinForm\Login System x Calculator\bin\Debug\net6.0-windows\Login System x Calculator.runtimeconfig.json
+C:\Users\Hesen_zc39\Desktop\Calculator-WinForm\Login System x Calculator\bin\Debug\net6.0-windows\Login System x Calculator.dll
+C:\Users\Hesen_zc39\Desktop\Calculator-WinForm\Login System x Calculator\bin\Debug\net6.0-windows\Login System x Calculator.pdb
+C:\Users\Hesen_zc39\Desktop\Calculator-WinForm\Login System x Calculator\obj\Debug\net6.0-windows\Login System x Calculator.csproj.AssemblyReference.cache
+C:\Users\Hesen_zc39\Desktop\Calculator-WinForm\Login System x Calculator\obj\Debug\net6.0-windows\Login_System_x_Calculator.Form1.resources
+C:\Users\Hesen_zc39\Desktop\Calculator-WinForm\Login System x Calculator\obj\Debug\net6.0-windows\Login_System_x_Calculator.Properties.Resources.resources
+C:\Users\Hesen_zc39\Desktop\Calculator-WinForm\Login System x Calculator\obj\Debug\net6.0-windows\Login System x Calculator.csproj.GenerateResource.cache
+C:\Users\Hesen_zc39\Desktop\Calculator-WinForm\Login System x Calculator\obj\Debug\net6.0-windows\Login System x Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hesen_zc39\Desktop\Calculator-WinForm\Login System x Calculator\obj\Debug\net6.0-windows\Login System x Calculator.AssemblyInfoInputs.cache
+C:\Users\Hesen_zc39\Desktop\Calculator-WinForm\Login System x Calculator\obj\Debug\net6.0-windows\Login System x Calculator.AssemblyInfo.cs
+C:\Users\Hesen_zc39\Desktop\Calculator-WinForm\Login System x Calculator\obj\Debug\net6.0-windows\Login System x Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Hesen_zc39\Desktop\Calculator-WinForm\Login System x Calculator\obj\Debug\net6.0-windows\Login System x Calculator.dll
+C:\Users\Hesen_zc39\Desktop\Calculator-WinForm\Login System x Calculator\obj\Debug\net6.0-windows\refint\Login System x Calculator.dll
+C:\Users\Hesen_zc39\Desktop\Calculator-WinForm\Login System x Calculator\obj\Debug\net6.0-windows\Login System x Calculator.pdb
+C:\Users\Hesen_zc39\Desktop\Calculator-WinForm\Login System x Calculator\obj\Debug\net6.0-windows\Login System x Calculator.genruntimeconfig.cache
+C:\Users\Hesen_zc39\Desktop\Calculator-WinForm\Login System x Calculator\obj\Debug\net6.0-windows\ref\Login System x Calculator.dll

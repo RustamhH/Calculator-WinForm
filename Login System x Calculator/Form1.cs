@@ -149,7 +149,6 @@ namespace Login_System_x_Calculator
 
         private void add_Click(object sender, EventArgs e)
         {
-            
             if (currentNumber.Contains('+') || currentNumber.Contains('-') || currentNumber.Contains('*') || currentNumber.Contains('/')) return;
             if (operation!="") {
                 equals_Click(sender, e); 
@@ -181,7 +180,6 @@ namespace Login_System_x_Calculator
 
         private void multiply_Click(object sender, EventArgs e)
         {
-            
             if (currentNumber.Contains('+') || currentNumber.Contains('-') || currentNumber.Contains('*') || currentNumber.Contains('/')) return;
             if (operation != "")
             {

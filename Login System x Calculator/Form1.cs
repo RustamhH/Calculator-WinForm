@@ -19,7 +19,10 @@ namespace Login_System_x_Calculator
 
         private void del_Click(object sender, EventArgs e)
         {
-            currentNumber = currentNumber.Substring(0, currentNumber.Length - 1);
+            if(currentNumber.Length!=0)
+            {
+                currentNumber = currentNumber.Substring(0, currentNumber.Length - 1);
+            }
             ResultMenu.Text = currentNumber;
         }
 
@@ -149,14 +152,18 @@ namespace Login_System_x_Calculator
 
         private void add_Click(object sender, EventArgs e)
         {
-            if (currentNumber.Contains('+') || currentNumber.Contains('-') || currentNumber.Contains('*') || currentNumber.Contains('/')) return;
             if (operation!="") {
-                equals_Click(sender, e); 
+                if(!currentNumber.EndsWith(operation))
+                {
+                    equals_Click(sender, e); 
+
+                }
             }
             operation = "+";
-            if (currentNumber.EndsWith("-") || currentNumber.EndsWith("+") || currentNumber.EndsWith("*") || currentNumber.EndsWith("/"))
+            if(currentNumber.EndsWith("-") || currentNumber.EndsWith("+") || currentNumber.EndsWith("*") || currentNumber.EndsWith("/"))
             {
-                currentNumber = currentNumber.Replace(currentNumber[currentNumber.Length - 1], '+');
+                currentNumber = currentNumber.Substring(0,currentNumber.Length - 1);
+                currentNumber += operation;
             }
             else currentNumber += operation;
             ResultMenu.Text = currentNumber;
@@ -164,15 +171,19 @@ namespace Login_System_x_Calculator
 
         private void subtract_Click(object sender, EventArgs e)
         {
-            if (currentNumber.Contains('+') || currentNumber.Contains('-') || currentNumber.Contains('*') || currentNumber.Contains('/')) return;
             if (operation != "")
             {
-                equals_Click(sender, e);
+                if (!currentNumber.EndsWith(operation))
+                {
+                    equals_Click(sender, e);
+
+                }
             }
             operation = "-";
             if (currentNumber.EndsWith("-") || currentNumber.EndsWith("+") || currentNumber.EndsWith("*") || currentNumber.EndsWith("/"))
             {
-                currentNumber = currentNumber.Replace(currentNumber[currentNumber.Length - 1], '-');
+                currentNumber = currentNumber.Substring(0, currentNumber.Length - 1);
+                currentNumber += operation;
             }
             else currentNumber += operation;
             ResultMenu.Text = currentNumber;
@@ -180,15 +191,19 @@ namespace Login_System_x_Calculator
 
         private void multiply_Click(object sender, EventArgs e)
         {
-            if (currentNumber.Contains('+') || currentNumber.Contains('-') || currentNumber.Contains('*') || currentNumber.Contains('/')) return;
             if (operation != "")
             {
-                equals_Click(sender, e);
+                if (!currentNumber.EndsWith(operation))
+                {
+                    equals_Click(sender, e);
+
+                }
             }
             operation = "*";
             if (currentNumber.EndsWith("-") || currentNumber.EndsWith("+") || currentNumber.EndsWith("*") || currentNumber.EndsWith("/"))
             {
-                currentNumber = currentNumber.Replace(currentNumber[currentNumber.Length - 1], '*');
+                currentNumber = currentNumber.Substring(0, currentNumber.Length - 1);
+                currentNumber += operation;
             }
             else
                 currentNumber += operation;
@@ -197,15 +212,20 @@ namespace Login_System_x_Calculator
 
         private void divide_Click(object sender, EventArgs e)
         {
-            if (currentNumber.Contains('+') || currentNumber.Contains('-') || currentNumber.Contains('*') || currentNumber.Contains('/')) return;
+            
             if (operation != "")
             {
-                equals_Click(sender, e);
+                if (!currentNumber.EndsWith(operation))
+                {
+                    equals_Click(sender, e);
+
+                }
             }
             operation ="/";
             if (currentNumber.EndsWith("-") || currentNumber.EndsWith("+") || currentNumber.EndsWith("*") || currentNumber.EndsWith("/"))
             {
-                currentNumber = currentNumber.Replace(currentNumber[currentNumber.Length - 1], '/');
+                currentNumber = currentNumber.Substring(0, currentNumber.Length - 1);
+                currentNumber += operation;
             }
             else
                 currentNumber += operation;
@@ -214,7 +234,8 @@ namespace Login_System_x_Calculator
 
         private void point_Click(object sender, EventArgs e)
         {
-            if(operation=="")
+            if (currentNumber == "") return;
+            if (operation=="")
             {
                 if (!currentNumber.Contains(',')) currentNumber += ",";
             }
@@ -227,9 +248,10 @@ namespace Login_System_x_Calculator
 
         private void number0_Click(object sender, EventArgs e)
         {
-            
             if(currentNumber!="0")currentNumber += "0";
             ResultMenu.Text = currentNumber;
         }
+
+        
     }
 }

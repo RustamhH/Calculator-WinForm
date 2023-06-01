@@ -71,17 +71,20 @@
             this.Numbers.Controls.Add(this.number3);
             this.Numbers.Controls.Add(this.subtract);
             this.Numbers.Controls.Add(this.add);
-            this.Numbers.Location = new System.Drawing.Point(212, 80);
+            this.Numbers.ForeColor = System.Drawing.Color.White;
+            this.Numbers.Location = new System.Drawing.Point(95, 80);
             this.Numbers.Name = "Numbers";
-            this.Numbers.Size = new System.Drawing.Size(391, 306);
+            this.Numbers.Padding = new System.Windows.Forms.Padding(0);
+            this.Numbers.Size = new System.Drawing.Size(332, 325);
             this.Numbers.TabIndex = 1;
             this.Numbers.TabStop = false;
             this.Numbers.Text = "Numbers";
             // 
             // number6
             // 
-            this.number6.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.number6.Location = new System.Drawing.Point(209, 91);
+            this.number6.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.number6.ForeColor = System.Drawing.Color.White;
+            this.number6.Location = new System.Drawing.Point(175, 97);
             this.number6.Name = "number6";
             this.number6.Size = new System.Drawing.Size(66, 37);
             this.number6.TabIndex = 0;
@@ -91,8 +94,9 @@
             // 
             // number5
             // 
-            this.number5.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.number5.Location = new System.Drawing.Point(127, 91);
+            this.number5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.number5.ForeColor = System.Drawing.Color.White;
+            this.number5.Location = new System.Drawing.Point(103, 97);
             this.number5.Name = "number5";
             this.number5.Size = new System.Drawing.Size(66, 37);
             this.number5.TabIndex = 0;
@@ -102,9 +106,9 @@
             // 
             // del
             // 
-            this.del.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.del.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.del.Location = new System.Drawing.Point(291, 29);
+            this.del.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.del.ForeColor = System.Drawing.Color.White;
+            this.del.Location = new System.Drawing.Point(247, 35);
             this.del.Name = "del";
             this.del.Size = new System.Drawing.Size(66, 37);
             this.del.TabIndex = 0;
@@ -114,9 +118,9 @@
             // 
             // number9
             // 
-            this.number9.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.number9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.number9.Location = new System.Drawing.Point(209, 29);
+            this.number9.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.number9.ForeColor = System.Drawing.Color.White;
+            this.number9.Location = new System.Drawing.Point(175, 35);
             this.number9.Name = "number9";
             this.number9.Size = new System.Drawing.Size(66, 37);
             this.number9.TabIndex = 0;
@@ -126,9 +130,9 @@
             // 
             // number8
             // 
-            this.number8.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.number8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.number8.Location = new System.Drawing.Point(127, 29);
+            this.number8.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.number8.ForeColor = System.Drawing.Color.White;
+            this.number8.Location = new System.Drawing.Point(103, 35);
             this.number8.Name = "number8";
             this.number8.Size = new System.Drawing.Size(66, 37);
             this.number8.TabIndex = 0;
@@ -138,9 +142,9 @@
             // 
             // number7
             // 
-            this.number7.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.number7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.number7.Location = new System.Drawing.Point(45, 29);
+            this.number7.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.number7.ForeColor = System.Drawing.Color.White;
+            this.number7.Location = new System.Drawing.Point(31, 35);
             this.number7.Name = "number7";
             this.number7.Size = new System.Drawing.Size(66, 37);
             this.number7.TabIndex = 0;
@@ -150,8 +154,9 @@
             // 
             // number4
             // 
-            this.number4.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.number4.Location = new System.Drawing.Point(45, 91);
+            this.number4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.number4.ForeColor = System.Drawing.Color.White;
+            this.number4.Location = new System.Drawing.Point(31, 97);
             this.number4.Name = "number4";
             this.number4.Size = new System.Drawing.Size(66, 37);
             this.number4.TabIndex = 0;
@@ -161,10 +166,11 @@
             // 
             // equals
             // 
-            this.equals.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.equals.Location = new System.Drawing.Point(209, 253);
+            this.equals.BackColor = System.Drawing.Color.LightGreen;
+            this.equals.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.equals.Location = new System.Drawing.Point(175, 259);
             this.equals.Name = "equals";
-            this.equals.Size = new System.Drawing.Size(148, 33);
+            this.equals.Size = new System.Drawing.Size(138, 33);
             this.equals.TabIndex = 0;
             this.equals.Text = "=";
             this.equals.UseVisualStyleBackColor = false;
@@ -172,10 +178,11 @@
             // 
             // reset
             // 
-            this.reset.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.reset.Location = new System.Drawing.Point(45, 253);
+            this.reset.BackColor = System.Drawing.Color.LightCoral;
+            this.reset.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.reset.Location = new System.Drawing.Point(31, 259);
             this.reset.Name = "reset";
-            this.reset.Size = new System.Drawing.Size(148, 33);
+            this.reset.Size = new System.Drawing.Size(138, 33);
             this.reset.TabIndex = 0;
             this.reset.Text = "Reset";
             this.reset.UseVisualStyleBackColor = false;
@@ -183,8 +190,9 @@
             // 
             // point
             // 
-            this.point.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.point.Location = new System.Drawing.Point(45, 205);
+            this.point.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.point.ForeColor = System.Drawing.Color.White;
+            this.point.Location = new System.Drawing.Point(31, 211);
             this.point.Name = "point";
             this.point.Size = new System.Drawing.Size(66, 33);
             this.point.TabIndex = 0;
@@ -194,8 +202,9 @@
             // 
             // number1
             // 
-            this.number1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.number1.Location = new System.Drawing.Point(45, 151);
+            this.number1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.number1.ForeColor = System.Drawing.Color.White;
+            this.number1.Location = new System.Drawing.Point(31, 157);
             this.number1.Name = "number1";
             this.number1.Size = new System.Drawing.Size(66, 33);
             this.number1.TabIndex = 0;
@@ -205,8 +214,9 @@
             // 
             // number0
             // 
-            this.number0.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.number0.Location = new System.Drawing.Point(127, 205);
+            this.number0.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.number0.ForeColor = System.Drawing.Color.White;
+            this.number0.Location = new System.Drawing.Point(103, 211);
             this.number0.Name = "number0";
             this.number0.Size = new System.Drawing.Size(66, 33);
             this.number0.TabIndex = 0;
@@ -216,8 +226,9 @@
             // 
             // divide
             // 
-            this.divide.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.divide.Location = new System.Drawing.Point(209, 205);
+            this.divide.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.divide.ForeColor = System.Drawing.Color.LightGreen;
+            this.divide.Location = new System.Drawing.Point(175, 211);
             this.divide.Name = "divide";
             this.divide.Size = new System.Drawing.Size(66, 33);
             this.divide.TabIndex = 0;
@@ -227,8 +238,9 @@
             // 
             // number2
             // 
-            this.number2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.number2.Location = new System.Drawing.Point(127, 151);
+            this.number2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.number2.ForeColor = System.Drawing.Color.White;
+            this.number2.Location = new System.Drawing.Point(103, 157);
             this.number2.Name = "number2";
             this.number2.Size = new System.Drawing.Size(66, 33);
             this.number2.TabIndex = 0;
@@ -238,8 +250,9 @@
             // 
             // multiply
             // 
-            this.multiply.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.multiply.Location = new System.Drawing.Point(291, 205);
+            this.multiply.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.multiply.ForeColor = System.Drawing.Color.LightGreen;
+            this.multiply.Location = new System.Drawing.Point(247, 211);
             this.multiply.Name = "multiply";
             this.multiply.Size = new System.Drawing.Size(66, 33);
             this.multiply.TabIndex = 0;
@@ -249,8 +262,9 @@
             // 
             // number3
             // 
-            this.number3.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.number3.Location = new System.Drawing.Point(209, 151);
+            this.number3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.number3.ForeColor = System.Drawing.Color.White;
+            this.number3.Location = new System.Drawing.Point(175, 157);
             this.number3.Name = "number3";
             this.number3.Size = new System.Drawing.Size(66, 33);
             this.number3.TabIndex = 0;
@@ -260,8 +274,9 @@
             // 
             // subtract
             // 
-            this.subtract.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.subtract.Location = new System.Drawing.Point(291, 151);
+            this.subtract.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.subtract.ForeColor = System.Drawing.Color.LightGreen;
+            this.subtract.Location = new System.Drawing.Point(247, 157);
             this.subtract.Name = "subtract";
             this.subtract.Size = new System.Drawing.Size(66, 33);
             this.subtract.TabIndex = 0;
@@ -271,8 +286,9 @@
             // 
             // add
             // 
-            this.add.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.add.Location = new System.Drawing.Point(291, 91);
+            this.add.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.add.ForeColor = System.Drawing.Color.LightGreen;
+            this.add.Location = new System.Drawing.Point(247, 97);
             this.add.Name = "add";
             this.add.Size = new System.Drawing.Size(66, 37);
             this.add.TabIndex = 0;
@@ -282,11 +298,12 @@
             // 
             // ResultMenu
             // 
-            this.ResultMenu.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ResultMenu.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ResultMenu.Font = new System.Drawing.Font("Yu Gothic", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.ResultMenu.Location = new System.Drawing.Point(212, 21);
+            this.ResultMenu.ForeColor = System.Drawing.SystemColors.InactiveBorder;
+            this.ResultMenu.Location = new System.Drawing.Point(95, 21);
             this.ResultMenu.Name = "ResultMenu";
-            this.ResultMenu.Size = new System.Drawing.Size(391, 53);
+            this.ResultMenu.Size = new System.Drawing.Size(332, 53);
             this.ResultMenu.TabIndex = 2;
             this.ResultMenu.Text = "";
             // 
@@ -294,10 +311,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(803, 450);
+            this.BackColor = System.Drawing.SystemColors.ControlText;
+            this.ClientSize = new System.Drawing.Size(513, 417);
             this.Controls.Add(this.ResultMenu);
             this.Controls.Add(this.Numbers);
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
